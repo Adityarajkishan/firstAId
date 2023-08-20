@@ -6,13 +6,13 @@ from streamlit_option_menu import option_menu
 # loading the saved models
 
 diabetes_model = pickle.load(
-    open('E:/Placements/ML projects/MDPS/saved models/diabetes_model.sav', 'rb'))
+    open('saved models/diabetes_model.sav', 'rb'))
 
 heart_disease_model = pickle.load(open(
-    'E:/Placements/ML projects/MDPS/saved models/heart_disease_model.sav', 'rb'))
+    'saved models/heart_disease_model.sav', 'rb'))
 
 parkinsons_model = pickle.load(
-    open('E:/Placements/ML projects/MDPS/saved models/parkinsons_model.sav', 'rb'))
+    open('saved models/parkinsons_model.sav', 'rb'))
 
 
 # sidebar for navigation
